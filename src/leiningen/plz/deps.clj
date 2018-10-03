@@ -38,6 +38,7 @@
     org.clojure/tools.nrepl                      #{"tools.nrepl"}
     org.clojure/tools.reader                     #{"tools.reader"}
     org.clojure/tools.trace                      #{"tools.trace"}
+    org.clojure/tools.namespace                  #{"tools.namespace"}
 
     compojure                                    #{"compojure"}
     hiccup                                       #{"hiccup"}
