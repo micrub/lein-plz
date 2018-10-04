@@ -2,6 +2,8 @@
   :description "Lein plugin that gladly adds dependencies to your `project.clj`"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :sign-releases false
+  :deploy-repositories  [["clojars" {:url "https://clojars.org/repo" :sign-releases false }]]
   :dependencies [[rewrite-clj "0.4.12"]
                  [ancient-clj "0.3.8"]
                  [clj-http "1.1.0"]
